@@ -1,9 +1,9 @@
-from HttpLogin import WiFlyLogger, TpeLogger, ITaiwanLogger, FamiLogger, TpeChtLogger
+from HttpLogin import WiFlyLogger, TpeLogger, ITaiwanLogger, FamiLogger, TpeChtLogger, ITaiwanLogger2
 
 
 def main():
-    # logger = ITaiwanLogger()
-    logger = TpeLogger()
+    logger = ITaiwanLogger2()
+    # logger = TpeLogger()
     # logger = WiFlyLogger()
     # logger = FamiLogger()
     # logger = TpeChtLogger()
@@ -12,7 +12,6 @@ def main():
     #     print logger.login()
     # else:
     #     print 'alreay connected'
-
 
 
 if __name__ == '__main__':
